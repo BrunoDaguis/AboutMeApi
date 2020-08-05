@@ -7,5 +7,6 @@ namespace Az204WebApi.Model
         public string Name { get; set; }
         public DateTime BirthDate { get; set; }
         public ContactModel Contact { get; set; }
+        public LocationModel Location { get; set; }
     }
 }
